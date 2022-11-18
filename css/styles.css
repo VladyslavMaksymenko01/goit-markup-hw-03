@@ -40,6 +40,21 @@ body {
   text-decoration: none;
 }
 
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 2px solid  tomato ;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0px;
+}
+ul,ol{
+padding-left: 0px;
+margin: 0px;
+}
 /* ________ШАПКА________*/
 
 .page-header {
