@@ -68,20 +68,26 @@ img {
   height: auto;
 }
 
-
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  border: 2px solid  tomato ;
+  /* border: 2px solid  tomato ; */
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0px;
 }
-ul,ol{
-padding-left: 0px;
-margin: 0px;
+ul,
+ol {
+  padding-left: 0px;
+  margin: 0px;
 }
 /* ________ШАПКА________*/
 
@@ -395,9 +401,6 @@ margin: 0px;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 30px;
-}
-
-.websites:nth-child() {
 }
 
 .link {
