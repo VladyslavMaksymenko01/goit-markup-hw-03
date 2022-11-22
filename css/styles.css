@@ -414,19 +414,30 @@ ol {
 /*________СПИСОК САЙТІВ ФІЛЬТР________*/
 
 .list-items {
-  display: inline-block;
-  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 30px;
 }
 
+.website-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.website-text {
+  margin: 20px 24px;
+}
+
 .link {
+  max-width: 370px;
   text-decoration: none;
 }
+
 /* items-title */
 .project-title {
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
