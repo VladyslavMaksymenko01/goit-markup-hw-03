@@ -292,12 +292,6 @@ ol {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-title {
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 
 .text {
   padding: 30px 0;
@@ -430,7 +424,8 @@ ol {
 }
 
 .link {
-  max-width: 370px;
+  display: inline-block;
+  min-width: 370px;
   text-decoration: none;
 }
 
