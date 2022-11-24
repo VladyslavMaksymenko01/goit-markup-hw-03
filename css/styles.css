@@ -48,8 +48,7 @@ body {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0px;
 }
 .section:last-child {
   padding: 94px 0px;
